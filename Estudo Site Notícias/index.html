@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/estilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícias Cidade - Home</title>
+</head>
+<!-- Para layout com uma coluna usar o id="uma-coluna" -->
+<!-- Para layout com duas colunas usar o id="duas-colunas" -->
+<body class="home"><!--conteudo // trocar nome da classe a cada qual pagina-->
+    <div id="container"> <!--inicio container-->
+        <header id="topo">
+            <a href="index.html"><h1>Notícias Cidade</h1></a>
+        </header>
+        <nav id="navegacao"><!--Inicio Nav-->
+            <ul>
+                <li class="primeiro">
+                    <a href="index.html" id="home">Home</a>
+                </li>
+                <li>
+                    <a href="brasil.html" id="brasil">Brasil</a>
+                </li>
+                <li>
+                    <a href="internacional.html" id="internacional">Internacional</a>
+                </li>
+                <li>
+                    <a href="economia.html" id="economia">Economia</a>
+                </li>
+                <li>
+                    <a href="saude.html" id="saude">Saúde</a>
+                </li>
+                <li>
+                    <a href="ciencia.html" id="ciencia">Ciência</a>
+                </li>
+                <li>
+                    <a href="fotos.html" id="fotos">Fotos</a>
+                </li>
+            </ul>
+        </nav><!--Fim Nav-->
+        <section id="conteudo"> <!--inicio conteudo-->
+            <div id="primario"> <!--coluna central-->
+                <div class="caixa destaque imagem-noticia">
+                    <h2>Destaques da Semana</h2>
+                    <div class="caixa-conteudo">
+                        <h3>Ainda Nessa Semana</h3>
+                        <br>
+                        <img src="imagens/doutor.jpg" alt="Doutor">
+                        <p>Nesta manhã foi realizada a cirurgia com sucesso
+                            de uma criança que precisava de transplante
+                            de medula. A cirurgia durou cerca de 8 horas, com uma
+                            equipe de 2 médicos e assistência de 9 enfermeiros.
+                        </p>
+                        <a href="doutor.html">Leia Mais...</a>
+                    </div>
+                </div>
+                <div class="caixa"> <!--Mundo Noticias-->
+                    <h2>Mundo</h2>
+                    <div class="caixa-conteudo">
+                        <ul id="lista-noticias">
+                            <li>
+                                <a href="">
+                                    <img src="imagens/mundo.jpg" alt="mundo" width="100px"/>
+                                    <h3>O Mundo e Como Está</h3>
+                                    <p>Saiba o que está acontecendo
+                                        ao redor do mundo num só lugar...</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="imagens/taxi.jpg" alt="taxi" width="100px"/>
+                                    <h3>O Mundo e Como Está</h3>
+                                    <p>Saiba o que está acontecendo
+                                        com os taxistas e as taxas de corrida...</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="imagens/doutor.jpg" alt="doutor" width="100px"/>
+                                    <h3>O Mundo e Como Está</h3>
+                                    <p>Saiba o que acontece quando uma
+                                        boa equipe de especialistas trabalham em equipe...</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="imagens/tecnologia.jpg" alt="tecnologia" width="100px"/>
+                                    <h3>O Mundo e Como Está</h3>
+                                    <p>Saiba tudo o que está acontecendo
+                                        no mundo da tecnologia ao redor do globo...</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div> <!--fim Mundo noticias-->
+            </div> <!--fim coluna central-->
+            <!--Quando Body estiver com #duas-colunas apagar #secundario-->
+            <div id="secundario"> <!--conteudo secundario-->
+                <div class="caixa entrevistas imagem-noticia">
+                    <h2>Últimas Entrevistas</h2>
+                        <div class="caixa-conteudo">
+                            <h3>Notícias recorrentes</h3>
+                            <img src="imagens/tecnologia.jpg" alt="tecnologia">
+                        <p>
+                            Entenda o porquê de saber usar computadores, tabelas
+                            e saber digitar para entrar no mercado hoje em da.
+                        </p>
+                        <a href="">Ver Mais...</a>
+                    </div>
+                </div>
+                <div class="caixa"> <!--Noticias recentes-->
+                    <h2>Notícias Recentes</h2>
+                    <div class="caixa-conteudo">
+                        <ul id="lista-noticias">
+                            <li>
+                                <a href="">
+                                    <img src="imagens/mundo.jpg" width="100px" alt="Mundo">
+                                    <h3>O mundo e como está</h3>
+                                    <p>Saiba o que está acontecendo nesse exato momento
+                                        ao redor do globo...
+                                    </p>    
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="imagens/piscina.jpg" width="100px" alt="Piscina">
+                                    <h3>Melhores Resorts</h3>
+                                    <p>Saiba aqui onde achar os melhores resortes com os 
+                                        melhores preços, acessíveis a todos...
+                                    </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="imagens/restaurante.jpg" width="100px" alt="Restaurantes">
+                                    <h3>Melhores Restaurantes</h3>
+                                    <p>Fique por dentro dos melhores restaurantes, algum deles
+                                        pode estar bem perto de você. Fique ligado...
+                                    </p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div> <!--fim noticias recentes-->
+            </div> <!--fim conteudo secundario-->
+        </section> <!--fim conteudo-->
+        <!--Quando o body estiver #uma-coluna apagar #lateral-->
+        <aside id="lateral"> <!--Caixa Lateral-->
+            <div class="caixa">
+                <h2>Entrevistas</h2>
+                <div class="caixa-conteudo">
+                    <ul>
+                        <li><a href="entrevista-1">Marcelo Soares</a></li>
+                        <li><a href="entrevista-2">Andrew Rocha</a></li>
+                        <li><a href="entrevista-3">Maria Bernardes</a></li>
+                        <li><a href="entrevista-4">Elton Manuel</a></li>
+                        <li><a href="entrevista-5">Reginaldo Primo</a></li>
+                        <li><a href="entrevista-6">Felipe Maya</a></li>
+                        <li><a href="entrevista-7">Marcos Sandro</a></li>
+                        <li><a href="entrevista-8">Gabriel Santana</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="caixa"> <!--Newsletter-->
+                <h2>News</h2>
+                <div class="caixa-conteudo">
+                    <form>
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="E-mail...">
+                            <br>
+                            <div>
+                                <input class="submit" type="submit" value="Cadastrar">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div> <!--Fim Newsletter-->
+        </aside> <!--Fim caixa Lateral-->
+    </div> <!--fim container-->
+    <div id="rodape-container">
+        <div id="rodape">
+            &copy; All Copyright reserveds 2020
+        </div>
+    </div>
+</body>
+</html>
